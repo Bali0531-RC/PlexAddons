@@ -9,7 +9,7 @@
       "description": "Bug fixes for interaction handling and embed updates"
     },
     "TempVoice": {
-      "version": "2.0.0",
+      "version": "1.1.0",
       "releaseDate": "2025-06-15",
       "downloadUrl": "https://plexdevelopment.net/downloads/tempvoice",
       "breaking": false,
@@ -17,7 +17,7 @@
       "description": "Fixed interaction handling, improved embed updates, enhanced control panel"
     }
   },
-  "lastUpdated": "2025-06-15T19:08:00Z",
+  "lastUpdated": "2025-06-15T19:43:00Z",
   "repository": "https://github.com/Bali0531-RC/PlexAddons",
   "supportServer": "https://discord.gg/RFsfZmnaZV"
 }
