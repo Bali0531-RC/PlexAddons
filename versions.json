@@ -11,7 +11,7 @@
     "TempVoice": {
       "version": "2.0.0",
       "releaseDate": "2025-06-15",
-      "downloadUrl": "https://github.com/yourusername/your-addons/releases/latest/download/TempVoice.zip",
+      "downloadUrl": "https://plexdevelopment.net/downloads/tempvoice",
       "breaking": false,
       "urgent": false,
       "description": "Fixed interaction handling, improved embed updates, enhanced control panel"
