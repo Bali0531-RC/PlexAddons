@@ -15,7 +15,15 @@
       "breaking": false,
       "urgent": false,
       "description": "Fixed interaction handling, improved embed updates, enhanced control panel"
-    }
+    },
+    "RewardSystem": {
+      "version": "1.0.3",
+      "releaseDate": "2025-06-19",
+      "downloadUrl": "https://plexdevelopment.net/downloads/rewards",
+      "breaking": false,
+      "urgent": true,
+      "description": "/"
+    },
   },
   "lastUpdated": "2025-06-15T19:43:00Z",
   "repository": "https://github.com/Bali0531-RC/PlexAddons",
