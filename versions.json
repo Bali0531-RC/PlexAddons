@@ -1,31 +1,31 @@
 {
-  "addons": {
-    "AiModeration": {
-      "version": "1.3.2",
-      "releaseDate": "2025-06-15",
-      "downloadUrl": "https://plexdevelopment.net/downloads/AIModeration",
-      "breaking": false,
-      "urgent": true,
-      "description": "Bug fixes for interaction handling and embed updates"
+    "addons": {
+        "AiModeration": {
+            "version": "1.3.2",
+            "releaseDate": "2025-06-15",
+            "downloadUrl": "https://plexdevelopment.net/downloads/AIModeration",
+            "breaking": false,
+            "urgent": true,
+            "description": "Bug fixes for interaction handling and embed updates"
+        },
+        "TempVoice": {
+            "version": "1.1.0",
+            "releaseDate": "2025-06-15",
+            "downloadUrl": "https://plexdevelopment.net/downloads/tempvoice",
+            "breaking": false,
+            "urgent": false,
+            "description": "Fixed interaction handling, improved embed updates, enhanced control panel"
+        },
+        "RewardSystem": {
+            "version": "1.0.3",
+            "releaseDate": "2025-06-19",
+            "downloadUrl": "https://plexdevelopment.net/downloads/rewards",
+            "breaking": false,
+            "urgent": true,
+            "description": ""
+        }
     },
-    "TempVoice": {
-      "version": "1.1.0",
-      "releaseDate": "2025-06-15",
-      "downloadUrl": "https://plexdevelopment.net/downloads/tempvoice",
-      "breaking": false,
-      "urgent": false,
-      "description": "Fixed interaction handling, improved embed updates, enhanced control panel"
-    },
-    "RewardSystem": {
-      "version": "1.0.3",
-      "releaseDate": "2025-06-19",
-      "downloadUrl": "https://plexdevelopment.net/downloads/rewards",
-      "breaking": false,
-      "urgent": true,
-      "description": ""
-    }
-  },
-  "lastUpdated": "2025-06-19T19:43:00Z",
-  "repository": "https://github.com/Bali0531-RC/PlexAddons",
-  "supportServer": "https://discord.gg/RFsfZmnaZV"
+    "lastUpdated": "2025-06-19T19:43:00Z",
+    "repository": "https://github.com/Bali0531-RC/PlexAddons",
+    "supportServer": "https://discord.gg/RFsfZmnaZV"
 }
