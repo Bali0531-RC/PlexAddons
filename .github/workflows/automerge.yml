@@ -48,16 +48,22 @@ jobs:
             exit 0
           fi
 
-          # 🚫 Internal addons are protected
-          if echo "$added$removed" | grep -q '"external": false'; then
-            echo "result=❌ Denied: Modifying internal addons is not allowed." >> $GITHUB_OUTPUT
+          # 🚫 Deny any removals
+          if [[ -n "$removed" ]]; then
+            echo "result=❌ Denied: Removing existing content is not allowed." >> $GITHUB_OUTPUT
             exit 0
           fi
 
-          # 🆕 Added new external addon
-          if echo "$added" | grep -q '"external": true' && ! echo "$removed" | grep -q '"addons"'; then
-            echo "result=✅ Approved: All checks passed. Ready to merge!" >> $GITHUB_OUTPUT
-            exit 0
+          # 🧩 Check if this is a new addon
+          if echo "$added" | grep -q '"addons"'; then
+            if echo "$added" | grep -q '"external": false'; then
+              echo "result=⏳ Pending: Manual review required (new internal addon added)." >> $GITHUB_OUTPUT
+              exit 0
+            fi
+            if echo "$added" | grep -q '"external": true'; then
+              echo "result=✅ Approved: All checks passed. Ready to merge!" >> $GITHUB_OUTPUT
+              exit 0
+            fi
           fi
 
           # ⏳ Allowed fields for manual review
@@ -72,8 +78,6 @@ jobs:
           # ❌ Everything else denied
           echo "result=❌ Denied: Modifying existing addons is not allowed." >> $GITHUB_OUTPUT
           exit 0
-
-
 
       - name: Checkout for gh CLI
         if: always()
