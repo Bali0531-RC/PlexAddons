@@ -6,10 +6,11 @@
             "downloadUrl": "https://plexdevelopment.net/downloads/AIModeration",
             "breaking": false,
             "urgent": true,
-            "description": "Bug fixes for interaction handling and embed update",
+            "description": "Bug fixes for interaction handling and embed updates",
             "external": false,
             "author": "bali0531",
-            "homepage": "https://plexdevelopment.net"
+            "homepage": "https://plexdevelopment.net",
+            "random": "random comment to test this"
         },
         "TempVoice": {
             "version": "1.1.0",
