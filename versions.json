@@ -34,12 +34,12 @@
             "homepage": "https://plexdevelopment.net"
         },
         "RewardSystem": {
-            "version": "1.0.0",
+            "version": "1.0.1",
             "releaseDate": "2025-09-09",
             "downloadUrl": "https://plexdevelopment.net/downloads/rewards",
             "breaking": false,
             "urgent": true,
-            "description": "first release",
+            "description": "update",
             "external": false,
             "author": "bali0531",
             "homepage": "https://plexdevelopment.net"
