@@ -43,6 +43,16 @@
             "external": false,
             "author": "bali0531",
             "homepage": "https://plexdevelopment.net"
+        },
+        "MusicAddon": {
+            "version": "1.0.0",
+            "releaseDate": "2025-11-21",
+            "downloadUrl": "https://github.com/Bali0531-RC/music-addon/releases/tag/release",
+            "breaking": false,
+            "urgent": false,
+            "description": "First Release",
+            "external": true,
+            "author": "bali0531"
         }
     },
     "lastUpdated": "2025-10-08T00:00:00Z",
