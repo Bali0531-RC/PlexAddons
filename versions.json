@@ -45,7 +45,7 @@
             "homepage": "https://plexdevelopment.net"
         },
         "MusicAddon": {
-            "version": "1.0.1",
+            "version": "1.0.0",
             "releaseDate": "2025-11-21",
             "downloadUrl": "https://github.com/Bali0531-RC/music-addon/releases/tag/release",
             "breaking": false,
