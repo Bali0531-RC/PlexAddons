@@ -1,3 +1,8 @@
+# THIS PROJECT IS NOT MAINTAINED ANYMORE! YOU SHOULD MIGRATE TO https://addons.plexdev.live !
+# https://github.com/Bali0531-RC/Plexdev-Addons
+
+
+
 # PlexAddons Version Checker
 
 A lightweight, easy-to-use version checking utility for **Plex Development Discord bot addons**. Created by bali0531 (Plex Development moderator) as an **unofficial community project** to provide automatic update checking for all Plex Development addons.
